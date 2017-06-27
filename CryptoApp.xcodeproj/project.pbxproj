@@ -14,6 +14,9 @@
 		213E0D471F030EC7004DC4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E0D451F030EC7004DC4EE /* LaunchScreen.storyboard */; };
 		213E0D521F030EC7004DC4EE /* CryptoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E0D511F030EC7004DC4EE /* CryptoAppTests.swift */; };
 		213E0D5D1F030EC7004DC4EE /* CryptoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E0D5C1F030EC7004DC4EE /* CryptoAppUITests.swift */; };
+		213E0D6F1F031070004DC4EE /* UserDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 213E0D6C1F030FAC004DC4EE /* UserDataModel.xcdatamodeld */; };
+		213E0D711F0310D0004DC4EE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E0D701F0310D0004DC4EE /* RegisterViewController.swift */; };
+		213E0D741F0318EC004DC4EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E0D731F0318EC004DC4EE /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		213E0D581F030EC7004DC4EE /* CryptoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213E0D5C1F030EC7004DC4EE /* CryptoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppUITests.swift; sourceTree = "<group>"; };
 		213E0D5E1F030EC7004DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213E0D6D1F030FAC004DC4EE /* UserDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDataModel.xcdatamodel; sourceTree = "<group>"; };
+		213E0D701F0310D0004DC4EE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		213E0D721F0311B9004DC4EE /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		213E0D731F0318EC004DC4EE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +107,11 @@
 				213E0D3C1F030EC7004DC4EE /* AppDelegate.swift */,
 				213E0D3E1F030EC7004DC4EE /* ViewController.swift */,
 				213E0D401F030EC7004DC4EE /* Main.storyboard */,
+				213E0D731F0318EC004DC4EE /* LoginViewController.swift */,
+				213E0D6C1F030FAC004DC4EE /* UserDataModel.xcdatamodeld */,
 				213E0D431F030EC7004DC4EE /* Assets.xcassets */,
+				213E0D701F0310D0004DC4EE /* RegisterViewController.swift */,
+				213E0D721F0311B9004DC4EE /* Bridge.h */,
 				213E0D451F030EC7004DC4EE /* LaunchScreen.storyboard */,
 				213E0D481F030EC7004DC4EE /* Info.plist */,
 			);
@@ -259,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213E0D6F1F031070004DC4EE /* UserDataModel.xcdatamodeld in Sources */,
 				213E0D3F1F030EC7004DC4EE /* ViewController.swift in Sources */,
 				213E0D3D1F030EC7004DC4EE /* AppDelegate.swift in Sources */,
+				213E0D741F0318EC004DC4EE /* LoginViewController.swift in Sources */,
+				213E0D711F0310D0004DC4EE /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanielB.CryptoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dbessonov/Desktop/CryptoApp/CryptoApp/Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanielB.CryptoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dbessonov/Desktop/CryptoApp/CryptoApp/Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -525,6 +541,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		213E0D6C1F030FAC004DC4EE /* UserDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				213E0D6D1F030FAC004DC4EE /* UserDataModel.xcdatamodel */,
+			);
+			currentVersion = 213E0D6D1F030FAC004DC4EE /* UserDataModel.xcdatamodel */;
+			path = UserDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 213E0D311F030EC7004DC4EE /* Project object */;
 }

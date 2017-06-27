@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "110cc346f1e1dbdace4a512205d2649f"
+build_time: [551919909, 642231000]
+inputs:
+  "/Users/dbessonov/Desktop/CryptoApp/CryptoApp/ViewController.swift": [551918415, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/CryptoApp/AppDelegate.swift": [551918023, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/CryptoApp/LoginViewController.swift": [551919909, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/RegisterViewController.swift": [551918909, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/DerivedData/CryptoApp/Build/Intermediates/CryptoApp.build/Debug-iphonesimulator/CryptoApp.build/DerivedSources/CoreDataGenerated/UserDataModel/UserAccount+CoreDataClass.swift": [551917225, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/DerivedData/CryptoApp/Build/Intermediates/CryptoApp.build/Debug-iphonesimulator/CryptoApp.build/DerivedSources/CoreDataGenerated/UserDataModel/UserAccount+CoreDataProperties.swift": [551917225, 0]
+  "/Users/dbessonov/Desktop/CryptoApp/DerivedData/CryptoApp/Build/Intermediates/CryptoApp.build/Debug-iphonesimulator/CryptoApp.build/DerivedSources/CoreDataGenerated/UserDataModel/UserDataModel+CoreDataModel.swift": [551917225, 0]
